@@ -435,10 +435,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21dfdcbfcd7e1984db55c615938ad683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 3175708567941484893, guid: 7819a6fc0ae858b4bab6cf5e8f4995fa, type: 3}
+  prefab: {fileID: 3175708567941484893, guid: 7c9a66dd248dd654aaf5ef60d7a01cea, type: 3}
   spawnHeight: 8.1
   spawnRadius: 1.5
-  maxSizeMultiplier: 2.1
+  maxSizeMultiplier: 2.15
 --- !u!4 &872956794
 Transform:
   m_ObjectHideFlags: 0

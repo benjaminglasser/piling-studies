@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6624930340852806290}
   - component: {fileID: 6624930340852806291}
   - component: {fileID: 6624930340852806284}
-  - component: {fileID: 6624930340852806288}
+  - component: {fileID: 1757267002051913079}
   m_Layer: 0
-  m_Name: FloorGridUnit
+  m_Name: FloorGridUnitBoolean
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,7 +98,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6624930340852806288
+--- !u!114 &1757267002051913079
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,8 +107,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6624930340852806285}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f78a0fb8d6792c543ab60023a8c0e672, type: 3}
+  m_Script: {fileID: 11500000, guid: 85b11f0b9bbdaa544b87426bbd5c6fa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalMaterial: {fileID: 2100000, guid: 716873c0e47523844b560a04b8d02c0d, type: 2}
-  collisionMaterial: {fileID: 2100000, guid: f6eb9188f5a75264a84799f858907b10, type: 2}
+  material1: {fileID: 2100000, guid: 716873c0e47523844b560a04b8d02c0d, type: 2}
+  material2: {fileID: 2100000, guid: f6eb9188f5a75264a84799f858907b10, type: 2}
