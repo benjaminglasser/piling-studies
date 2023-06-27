@@ -38,6 +38,7 @@ public class ScrollSpawner : MonoBehaviour
 
         var newObj = Instantiate(prefab, spawnPoint, randomRotation);
         newObj.GetComponent<Rigidbody>().useGravity = true; // Assuming your prefab has a Rigidbody component
+    
 
         float scaleMultiplier = Random.Range(1, maxSizeMultiplier);
         newObj.transform.localScale *= scaleMultiplier;
